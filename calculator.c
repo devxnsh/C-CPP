@@ -5,10 +5,17 @@ int main(){
 	float result;
 	char choice;
 	printf("Enter two numbers");
-	scanf("&d&d",&num1,&num2);
+	scanf("%d%d",&num1,&num2);
 	printf("Choose operation + - x / ");
 	scanf("%c\n",&choice);
-	result = num1+num2;
-	printf(result);
+	if (choice == '+'){
+		result = num1+num2;
+	}
+	else {
+		result = 0;
+	}
+	printf("%c",choice);
+	printf("%f",result);
 	return 0;
 }
+
