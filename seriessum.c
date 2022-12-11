@@ -3,10 +3,10 @@
 int main(){
 int x,num=0,lim;
 float term,sum;
-printf("Enter X");
+printf("Enter X ");
 scanf("%d",&x);
 
-printf("Enter Limit of summation");
+printf("Enter Limit of summation ");
 scanf("%d",&lim);
 while (num=lim)
 {
